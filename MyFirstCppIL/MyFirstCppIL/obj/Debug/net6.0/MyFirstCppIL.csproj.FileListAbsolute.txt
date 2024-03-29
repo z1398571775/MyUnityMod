@@ -1,0 +1,12 @@
+E:\c#\MyFirstCppIL\MyFirstCppIL\bin\Debug\net6.0\MyFirstCppIL.deps.json
+E:\c#\MyFirstCppIL\MyFirstCppIL\bin\Debug\net6.0\MyFirstCppIL.dll
+E:\c#\MyFirstCppIL\MyFirstCppIL\bin\Debug\net6.0\MyFirstCppIL.pdb
+E:\c#\MyFirstCppIL\MyFirstCppIL\obj\Debug\net6.0\MyFirstCppIL.csproj.AssemblyReference.cache
+E:\c#\MyFirstCppIL\MyFirstCppIL\obj\Debug\net6.0\MyFirstCppIL.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#\MyFirstCppIL\MyFirstCppIL\obj\Debug\net6.0\MyFirstCppIL.AssemblyInfoInputs.cache
+E:\c#\MyFirstCppIL\MyFirstCppIL\obj\Debug\net6.0\MyFirstCppIL.AssemblyInfo.cs
+E:\c#\MyFirstCppIL\MyFirstCppIL\obj\Debug\net6.0\MyFirstCppIL.csproj.CoreCompileInputs.cache
+E:\c#\MyFirstCppIL\MyFirstCppIL\obj\Debug\net6.0\MyFirstCppIL.dll
+E:\c#\MyFirstCppIL\MyFirstCppIL\obj\Debug\net6.0\refint\MyFirstCppIL.dll
+E:\c#\MyFirstCppIL\MyFirstCppIL\obj\Debug\net6.0\MyFirstCppIL.pdb
+E:\c#\MyFirstCppIL\MyFirstCppIL\obj\Debug\net6.0\ref\MyFirstCppIL.dll

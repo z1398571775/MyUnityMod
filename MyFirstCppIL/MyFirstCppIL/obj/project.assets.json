@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "LavaGang.MelonLoader/0.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MelonLoader.dll": {
+            "related": ".runtimeconfig.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MelonLoader.dll": {
+            "related": ".runtimeconfig.json;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LavaGang.MelonLoader/0.6.1": {
+      "sha512": "wXVkP5J+Z/NhhAZsPXicDC8uVxrckzskp35d5ngzKVolwlWIwlRc4ZT25ch2DCESeGSh14hsLv9bROAfy08Hug==",
+      "type": "package",
+      "path": "lavagang.melonloader/0.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lavagang.melonloader.0.6.1.nupkg.sha512",
+        "lavagang.melonloader.nuspec",
+        "lib/net35/MelonLoader.dll",
+        "lib/net35/MelonLoader.xml",
+        "lib/net6.0/MelonLoader.dll",
+        "lib/net6.0/MelonLoader.runtimeconfig.json",
+        "lib/net6.0/MelonLoader.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "LavaGang.MelonLoader >= 0.6.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\123456\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\c#\\MyFirstCppIL\\MyFirstCppIL\\MyFirstCppIL.csproj",
+      "projectName": "MyFirstCppIL",
+      "projectPath": "E:\\c#\\MyFirstCppIL\\MyFirstCppIL\\MyFirstCppIL.csproj",
+      "packagesPath": "C:\\Users\\123456\\.nuget\\packages\\",
+      "outputPath": "E:\\c#\\MyFirstCppIL\\MyFirstCppIL\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\123456\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "LavaGang.MelonLoader": {
+            "target": "Package",
+            "version": "[0.6.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SNH73NphedyAKVmDmywOnkAGKLFp2Mk8Undt6M5aHaX7gj+8IRahEdwl1O67tOz7qSqDRW1CqTyaytndUYT2oQ==",
+  "success": true,
+  "projectFilePath": "E:\\c#\\MyFirstCppIL\\MyFirstCppIL\\MyFirstCppIL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\123456\\.nuget\\packages\\lavagang.melonloader\\0.6.1\\lavagang.melonloader.0.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
