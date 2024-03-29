@@ -1,0 +1,10 @@
+E:\c#\7DaysToDieMod\7DaysToDieMod\bin\Debug\netstandard2.1\7DaysToDieMod.deps.json
+E:\c#\7DaysToDieMod\7DaysToDieMod\bin\Debug\netstandard2.1\7DaysToDieMod.dll
+E:\c#\7DaysToDieMod\7DaysToDieMod\bin\Debug\netstandard2.1\7DaysToDieMod.pdb
+E:\c#\7DaysToDieMod\7DaysToDieMod\obj\Debug\netstandard2.1\7DaysToDieMod.csproj.AssemblyReference.cache
+E:\c#\7DaysToDieMod\7DaysToDieMod\obj\Debug\netstandard2.1\7DaysToDieMod.GeneratedMSBuildEditorConfig.editorconfig
+E:\c#\7DaysToDieMod\7DaysToDieMod\obj\Debug\netstandard2.1\7DaysToDieMod.AssemblyInfoInputs.cache
+E:\c#\7DaysToDieMod\7DaysToDieMod\obj\Debug\netstandard2.1\7DaysToDieMod.AssemblyInfo.cs
+E:\c#\7DaysToDieMod\7DaysToDieMod\obj\Debug\netstandard2.1\7DaysToDieMod.csproj.CoreCompileInputs.cache
+E:\c#\7DaysToDieMod\7DaysToDieMod\obj\Debug\netstandard2.1\7DaysToDieMod.dll
+E:\c#\7DaysToDieMod\7DaysToDieMod\obj\Debug\netstandard2.1\7DaysToDieMod.pdb
