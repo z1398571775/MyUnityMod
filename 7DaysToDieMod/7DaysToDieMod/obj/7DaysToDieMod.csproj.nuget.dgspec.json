@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "E:\\c#\\7DaysToDieMod\\7DaysToDieMod\\7DaysToDieMod.csproj": {}
+    "E:\\git\\c#\\MyUnityMod\\7DaysToDieMod\\7DaysToDieMod\\7DaysToDieMod.csproj": {}
   },
   "projects": {
-    "E:\\c#\\7DaysToDieMod\\7DaysToDieMod\\7DaysToDieMod.csproj": {
+    "E:\\git\\c#\\MyUnityMod\\7DaysToDieMod\\7DaysToDieMod\\7DaysToDieMod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\c#\\7DaysToDieMod\\7DaysToDieMod\\7DaysToDieMod.csproj",
+        "projectUniqueName": "E:\\git\\c#\\MyUnityMod\\7DaysToDieMod\\7DaysToDieMod\\7DaysToDieMod.csproj",
         "projectName": "7DaysToDieMod",
-        "projectPath": "E:\\c#\\7DaysToDieMod\\7DaysToDieMod\\7DaysToDieMod.csproj",
-        "packagesPath": "C:\\Users\\123456\\.nuget\\packages\\",
-        "outputPath": "E:\\c#\\7DaysToDieMod\\7DaysToDieMod\\obj\\",
+        "projectPath": "E:\\git\\c#\\MyUnityMod\\7DaysToDieMod\\7DaysToDieMod\\7DaysToDieMod.csproj",
+        "packagesPath": "C:\\Users\\13985\\.nuget\\packages\\",
+        "outputPath": "E:\\git\\c#\\MyUnityMod\\7DaysToDieMod\\7DaysToDieMod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\123456\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\13985\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,15 +34,24 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "LavaGang.MelonLoader": {
               "target": "Package",
               "version": "[0.6.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -57,11 +66,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,13 @@
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\bin\Debug\net8.0\7DaysToDieMod.deps.json
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\bin\Debug\net8.0\7DaysToDieMod.dll
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\bin\Debug\net8.0\7DaysToDieMod.pdb
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\obj\Debug\net8.0\7DaysToDieMod.csproj.AssemblyReference.cache
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\obj\Debug\net8.0\7DaysToDieMod.GeneratedMSBuildEditorConfig.editorconfig
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\obj\Debug\net8.0\7DaysToDieMod.AssemblyInfoInputs.cache
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\obj\Debug\net8.0\7DaysToDieMod.AssemblyInfo.cs
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\obj\Debug\net8.0\7DaysToDieMod.csproj.CoreCompileInputs.cache
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\obj\Debug\net8.0\7DaysToDieMod.sourcelink.json
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\obj\Debug\net8.0\7DaysToDieMod.dll
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\obj\Debug\net8.0\refint\7DaysToDieMod.dll
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\obj\Debug\net8.0\7DaysToDieMod.pdb
+E:\git\c#\MyUnityMod\7DaysToDieMod\7DaysToDieMod\obj\Debug\net8.0\ref\7DaysToDieMod.dll

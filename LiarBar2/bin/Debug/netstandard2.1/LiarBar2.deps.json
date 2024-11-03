@@ -1,0 +1,42 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "LiarBar2/1.0.0": {
+        "dependencies": {
+          "LavaGang.MelonLoader": "0.6.5"
+        },
+        "runtime": {
+          "LiarBar2.dll": {}
+        }
+      },
+      "LavaGang.MelonLoader/0.6.5": {
+        "runtime": {
+          "lib/net35/MelonLoader.dll": {
+            "assemblyVersion": "0.6.5.0",
+            "fileVersion": "0.6.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiarBar2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LavaGang.MelonLoader/0.6.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xkjY8YxybweTAUYkk2Jw686LFUMUBT/IQsExoDju5JaZ4//L04AnhhXMD6AeVSj63kPfOczbH7zPVqocjJz9Gw==",
+      "path": "lavagang.melonloader/0.6.5",
+      "hashPath": "lavagang.melonloader.0.6.5.nupkg.sha512"
+    }
+  }
+}

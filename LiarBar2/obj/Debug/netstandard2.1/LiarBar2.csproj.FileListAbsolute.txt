@@ -1,0 +1,10 @@
+E:\git\c#\LiarBar2\bin\Debug\netstandard2.1\LiarBar2.deps.json
+E:\git\c#\LiarBar2\bin\Debug\netstandard2.1\LiarBar2.dll
+E:\git\c#\LiarBar2\bin\Debug\netstandard2.1\LiarBar2.pdb
+E:\git\c#\LiarBar2\obj\Debug\netstandard2.1\LiarBar2.csproj.AssemblyReference.cache
+E:\git\c#\LiarBar2\obj\Debug\netstandard2.1\LiarBar2.GeneratedMSBuildEditorConfig.editorconfig
+E:\git\c#\LiarBar2\obj\Debug\netstandard2.1\LiarBar2.AssemblyInfoInputs.cache
+E:\git\c#\LiarBar2\obj\Debug\netstandard2.1\LiarBar2.AssemblyInfo.cs
+E:\git\c#\LiarBar2\obj\Debug\netstandard2.1\LiarBar2.csproj.CoreCompileInputs.cache
+E:\git\c#\LiarBar2\obj\Debug\netstandard2.1\LiarBar2.dll
+E:\git\c#\LiarBar2\obj\Debug\netstandard2.1\LiarBar2.pdb

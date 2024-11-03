@@ -71,7 +71,12 @@ namespace _7DaysToDieMod
             {
                 //_player.Stamina = 1000;
 
-                _player.Health = _player.GetMaxHealth();
+                if (_player.Health <= 40)
+                {
+                    _player.Health = _player.GetMaxHealth();
+                }
+
+               
                 //    _player.Water = 1000;
 
                 //    EntityStats entityStats = _player.Stats;
@@ -124,100 +129,100 @@ namespace _7DaysToDieMod
             
         }
 
-        public static void getBuff()
-        {
-            //StreamWriter sw = new StreamWriter("E:\\c#\\7DaysToDieMod\\Test.txt");
-            //try
-            //{
-            //    CaseInsensitiveStringDictionary<BuffClass> Buffs = BuffManager.Buffs;
-            //    if (Buffs != null)
-            //    {
-            //        foreach (var item in Buffs)
-            //        {
-            //            BuffClass buffClass = item.Value;
-            //            sw.WriteLine($"name:{buffClass.Name} \t  Description:{buffClass.Description}");
-            //        }
+        //public static void getBuff()
+        //{
+        //    StreamWriter sw = new StreamWriter("E:\\c#\\7DaysToDieMod\\Test.txt");
+        //    try
+        //    {
+        //        CaseInsensitiveStringDictionary<BuffClass> Buffs = BuffManager.Buffs;
+        //        if (Buffs != null)
+        //        {
+        //            foreach (var item in Buffs)
+        //            {
+        //                BuffClass buffClass = item.Value;
+        //                sw.WriteLine($"name:{buffClass.Name} \t  Description:{buffClass.Description}");
+        //            }
 
-            //        sw.Close();
+        //            sw.Close();
 
-            //    }
-            //}
-            //catch(Exception e)
-            //{
-            //    Melon<MyMod>.Logger.Error(e.Message);
-            //}
+        //        }
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Melon<MyMod>.Logger.Error(e.Message);
+        //    }
 
-            List<BuffValue> buffValues  = _player.Buffs.ActiveBuffs;
-            float _buffDuration = 999999;
-            BuffClass buff = BuffManager.GetBuff("god");
-            if(buff == null )
-            {
-                Melon<MyMod>.Logger.Error("buff is null");
-            }
-            for (int i = 0; i < _player.Buffs.ActiveBuffs.Count; i++)
-            {
-                BuffValue buffValue = _player.Buffs.ActiveBuffs[i];
-                if (buffValue.BuffClass.Name == buff.Name)
-                {
-                    if (_buffDuration >= 0f)
-                    {
-                        buffValue.BuffClass.DurationMax = _buffDuration;
-                    }
-                    switch (buff.StackType)
-                    {
-                        case BuffEffectStackTypes.Ignore:
-                            if (buffValue.Remove)
-                            {
-                                buffValue.Remove = false;
-                            }
-                            break;
-                        case BuffEffectStackTypes.Duration:
-                            {
-                                float num2 = _buffDuration - buffValue.DurationInSeconds;
-                                float num3 = buffValue.BuffClass.InitialDurationMax;
-                                if (_buffDuration >= 0f)
-                                {
-                                    num3 = _buffDuration;
-                                }
-                                if (num2 > num3)
-                                {
-                                    num3 = num2;
-                                }
-                                buffValue.DurationInTicks = 0U;
-                                buffValue.BuffClass.DurationMax = num3;
-                                _player.Buffs.FireEvent(MinEventTypes.onSelfBuffStack, buff, _player.Buffs.parent.MinEventContext);
-                                break;
-                            }
-                        case BuffEffectStackTypes.Effect:
-                            {
-                                BuffValue buffValue2 = buffValue;
-                                int stackEffectMultiplier = buffValue2.StackEffectMultiplier;
-                                buffValue2.StackEffectMultiplier = stackEffectMultiplier + 1;
-                                _player.Buffs.FireEvent(MinEventTypes.onSelfBuffStack, buff, _player.Buffs.parent.MinEventContext);
-                                break;
-                            }
-                        case BuffEffectStackTypes.Replace:
-                            buffValue.DurationInTicks = 0U;
-                            _player.Buffs.FireEvent(MinEventTypes.onSelfBuffStack, buff, _player.Buffs.parent.MinEventContext);
-                            break;
-                    }
-                    return;
-                }
-                else
-                {
-                    BuffValue buffValue3 = new BuffValue(buff.Name, -1, buff);
-                    if (_buffDuration >= 0f)
-                    {
-                        buffValue3.BuffClass.DurationMax = _buffDuration;
-                    }
-                    else
-                    {
-                        buffValue3.BuffClass.DurationMax = buffValue3.BuffClass.InitialDurationMax;
-                    }
-                    _player.Buffs.ActiveBuffs.Add(buffValue3);
-                }
-            }
+        //    List<BuffValue> buffValues = _player.Buffs.ActiveBuffs;
+        //    float _buffDuration = 999999;
+        //    BuffClass buff = BuffManager.GetBuff("god");
+        //    if (buff == null)
+        //    {
+        //        Melon<MyMod>.Logger.Error("buff is null");
+        //    }
+        //    for (int i = 0; i < _player.Buffs.ActiveBuffs.Count; i++)
+        //    {
+        //        BuffValue buffValue = _player.Buffs.ActiveBuffs[i];
+        //        if (buffValue.BuffClass.Name == buff.Name)
+        //        {
+        //            if (_buffDuration >= 0f)
+        //            {
+        //                buffValue.BuffClass.DurationMax = _buffDuration;
+        //            }
+        //            switch (buff.StackType)
+        //            {
+        //                case BuffEffectStackTypes.Ignore:
+        //                    if (buffValue.Remove)
+        //                    {
+        //                        buffValue.Remove = false;
+        //                    }
+        //                    break;
+        //                case BuffEffectStackTypes.Duration:
+        //                    {
+        //                        float num2 = _buffDuration - buffValue.DurationInSeconds;
+        //                        float num3 = buffValue.BuffClass.InitialDurationMax;
+        //                        if (_buffDuration >= 0f)
+        //                        {
+        //                            num3 = _buffDuration;
+        //                        }
+        //                        if (num2 > num3)
+        //                        {
+        //                            num3 = num2;
+        //                        }
+        //                        buffValue.DurationInTicks = 0U;
+        //                        buffValue.BuffClass.DurationMax = num3;
+        //                        _player.Buffs.FireEvent(MinEventTypes.onSelfBuffStack, buff, _player.Buffs.parent.MinEventContext);
+        //                        break;
+        //                    }
+        //                case BuffEffectStackTypes.Effect:
+        //                    {
+        //                        BuffValue buffValue2 = buffValue;
+        //                        int stackEffectMultiplier = buffValue2.StackEffectMultiplier;
+        //                        buffValue2.StackEffectMultiplier = stackEffectMultiplier + 1;
+        //                        _player.Buffs.FireEvent(MinEventTypes.onSelfBuffStack, buff, _player.Buffs.parent.MinEventContext);
+        //                        break;
+        //                    }
+        //                case BuffEffectStackTypes.Replace:
+        //                    buffValue.DurationInTicks = 0U;
+        //                    _player.Buffs.FireEvent(MinEventTypes.onSelfBuffStack, buff, _player.Buffs.parent.MinEventContext);
+        //                    break;
+        //            }
+        //            return;
+        //        }
+        //        else
+        //        {
+        //            BuffValue buffValue3 = new BuffValue(buff.Name, -1, buff);
+        //            if (_buffDuration >= 0f)
+        //            {
+        //                buffValue3.BuffClass.DurationMax = _buffDuration;
+        //            }
+        //            else
+        //            {
+        //                buffValue3.BuffClass.DurationMax = buffValue3.BuffClass.InitialDurationMax;
+        //            }
+        //            _player.Buffs.ActiveBuffs.Add(buffValue3);
+        //        }
+        //    }
 
-        }
+        //}
     }
 }

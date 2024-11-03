@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "vi81rsTlupA=",
+  "success": true,
+  "projectFilePath": "E:\\git\\c#\\LiarBar2\\LiarBar2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\13985\\.nuget\\packages\\lavagang.melonloader\\0.6.5\\lavagang.melonloader.0.6.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“.NETStandard,Version=v2.1”还原包“LavaGang.MelonLoader 0.6.5”。此包可能与项目不完全兼容。",
+      "libraryId": "LavaGang.MelonLoader",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}
